@@ -1,40 +1,49 @@
-# Note: These docs are no longer maintained. Please refer to https://docs.cline.bot for the most recent Cline documentation.
+# Not: Bu dokümanlar artık güncellenmemektedir. En güncel Cline dokümanları için lütfen https://docs.cline.bot adresine bakın.
+
 ---
 
-# Cline Documentation
+# Cline Dokümantasyonu
 
-Welcome to the Cline documentation - your comprehensive guide to using and extending Cline's capabilities. Here you'll find resources to help you get started, improve your skills, and contribute to the project.
+Cline dokümantasyonuna hoş geldiniz - Cline'ın yeteneklerini kullanma ve genişletme konusunda kapsamlı kılavuzunuz. Burada başlamanıza, becerilerinizi geliştirmenize ve projeye katkıda bulunmanıza yardımcı olacak kaynaklar bulacaksınız.
 
-## Getting Started
+## Başlangıç ​​Kılavuzu
 
-- **New to coding?** We've prepared a gentle introduction:
-  - [Getting Started for New Coders](getting-started-new-coders/README.md)
+- **Kodlamaya yeni mi başladınız?** Kolay bir giriş hazırladık:
 
-## Improving Your Prompting Skills
+- [Yeni Kodlayıcılar İçin Başlangıç ​​Kılavuzu](getting-started-new-coders/README.md)
 
-- **Want to communicate more effectively with Cline?** Explore:
-  - [Prompt Engineering Guide](prompting/README.md)
-  - [Cline Memory Bank](prompting/custom%20instructions%20library/cline-memory-bank.md)
+## Komut İstemi Becerilerinizi Geliştirme
 
-## Exploring Cline's Tools
+- **Cline ile daha etkili iletişim kurmak mı istiyorsunuz?** Şunları keşfedin:
 
-- **Understand Cline's capabilities:**
-  - [Cline Tools Guide](tools/cline-tools-guide.md)
+- [Komut İstemi Mühendisliği Kılavuzu](prompting/README.md)
 
-- **Extend Cline with MCP Servers:**
-  - [MCP Overview](mcp/README.md)
-  - [Building MCP Servers from GitHub](mcp/mcp-server-from-github.md)
-  - [Building Custom MCP Servers](mcp/mcp-server-from-scratch.md)
+- [Cline Bellek Bankası](prompting/custom%20instructions%20library/cline-memory-bank.md)
 
-## Contributing to Cline
+## Cline Araçlarını Keşfetme
 
-- **Interested in contributing?** We welcome your input:
-  - Feel free to submit a pull request
-  - [Contribution Guidelines](CONTRIBUTING.md)
+- **Cline'ın yeteneklerini anlayın:**
 
-## Additional Resources
+- [Cline Araçları Kılavuzu](tools/cline-tools-guide.md)
 
-- **Cline GitHub Repository:** [https://github.com/cline/cline](https://github.com/cline/cline)
-- **MCP Documentation:** [https://modelcontextprotocol.org/docs](https://modelcontextprotocol.org/docs)
+- **Cline'ı MCP Sunucularıyla Genişletin:**
 
-We're always looking to improve this documentation. If you have suggestions or find areas that could be enhanced, please let us know. Your feedback helps make Cline better for everyone.
+- [MCP Genel Bakış](mcp/README.md)
+
+- [MCP Sunucuları Oluşturma] GitHub](mcp/mcp-server-from-github.md)
+
+- [Özel MCP Sunucuları Oluşturma](mcp/mcp-server-from-scratch.md)
+
+## Cline'a Katkıda Bulunma
+
+- **Katkıda bulunmakla ilgileniyor musunuz?** Görüşlerinizi bekliyoruz:
+
+- Bir çekme isteği göndermekten çekinmeyin
+- [Katkı Yönergeleri](CONTRIBUTING.md)
+
+## Ek Kaynaklar
+
+- **Cline GitHub Deposu:** [https://github.com/cline/cline](https://github.com/cline/cline)
+- **MCP Dokümantasyonu:** [https://modelcontextprotocol.org/docs](https://modelcontextprotocol.org/docs)
+
+Bu dokümantasyonu sürekli olarak geliştirmeye çalışıyoruz. Önerileriniz varsa veya geliştirilebilecek alanlar bulursanız lütfen bize bildirin. Geri bildirimleriniz Cline'ı herkes için daha iyi hale getirmeye yardımcı olur.
