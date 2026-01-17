@@ -1,91 +1,113 @@
-# Getting Started with Cline | New Coders
+# Cline ile Başlangıç ​​| Yeni Kodlayıcılar
 
-Welcome to Cline! This guide will help you get set up and start using Cline to build your first project.
+Cline'a hoş geldiniz! Bu kılavuz, kurulumunuzu yapmanıza ve ilk projenizi oluşturmak için Cline'ı kullanmaya başlamanıza yardımcı olacaktır.
 
-## What You'll Need
+## İhtiyacınız Olanlar
 
-Before you begin, make sure you have the following:
+Başlamadan önce şunlara sahip olduğunuzdan emin olun:
 
--   **VS Code:** A free, powerful code editor.
-    -   [Download VS Code](https://code.visualstudio.com/)
--   **Development Tools:** Essential software for coding (Homebrew, Node.js, Git, etc.).
-    -   Follow our [Installing Essential Development Tools](installing-dev-essentials.md) guide to set these up with Cline's help (after getting setup here)
-    -   Cline will guide you through installing everything you need
--   **Cline Projects Folder:** A dedicated folder for all your Cline projects.
-    - On macOS: Create a folder named "Cline" in your Documents folder
-      - Path: `/Users/[your-username]/Documents/Cline`
-    - On Windows: Create a folder named "Cline" in your Documents folder
-      - Path: `C:\Users\[your-username]\Documents\Cline`
-    - Inside this Cline folder, create separate folders for each project
-      - Example: `Documents/Cline/workout-app` for a workout tracking app
-      - Example: `Documents/Cline/portfolio-website` for your portfolio
--   **Cline Extension in VS Code:** The Cline extension installed in VS Code.
+- **VS Code:** Ücretsiz, güçlü bir kod editörü.
 
-## Step-by-Step Setup
+- [VS Code'u İndirin](https://code.visualstudio.com/)
+- **Geliştirme Araçları:** Kodlama için gerekli yazılımlar (Homebrew, Node.js, Git, vb.).
 
-Follow these steps to get Cline up and running:
+- Bunları Cline'ın yardımıyla kurmak için [Temel Geliştirme Araçlarını Kurma](installing-dev-essentials.md) kılavuzumuzu izleyin (burada kurulumu tamamladıktan sonra).
 
-1. **Open VS Code:** Launch the VS Code application. If VS Code shows "Running extensions might...", click "Allow".
+- Cline, ihtiyacınız olan her şeyi kurmanızda size rehberlik edecektir.
+- **Cline Projeleri Klasörü:** Tüm Cline projeleriniz için ayrılmış bir klasör.
 
-2. **Open Your Cline Folder:** In VS Code, open the Cline folder you created in Documents.
+- macOS'ta: Belgeler klasörünüzde "Cline" adında bir klasör oluşturun
+- Yol: `/Users/[kullanıcı-adınız]/Documents/Cline`
 
-3. **Navigate to Extensions:** Click on the Extensions icon in the Activity Bar on the side of VS Code.
+- Windows'ta: Belgeler klasörünüzde "Cline" adında bir klasör oluşturun
 
-4. **Search for 'Cline':** In the Extensions search bar, type "Cline".
+- Yol: `C:\Users\[kullanıcı-adınız]\Documents\Cline`
 
-5. **Install the Extension:** Click the "Install" button next to the Cline extension.
+- Bu Cline klasörünün içinde, her proje için ayrı klasörler oluşturun
+- Örnek: Egzersiz takip uygulaması için `Documents/Cline/workout-app`
+- Örnek: Portfolyonuz için `Documents/Cline/portfolio-website`
+- **VS Code'da Cline Uzantısı:** VS Code'a yüklenen Cline uzantısı.
 
-6. **Open Cline:** Once installed, you can open Cline in a few ways:
-   - Click the Cline icon in the Activity Bar.
-   - Use the command palette (`CMD/CTRL + Shift + P`) and type "Cline: Open In New Tab" to open Cline as a tab in your editor. This is recommended for a better view.
-   - **Troubleshooting:** If you don't see the Cline icon, try restarting VS Code.
-   - **What You'll See:** You should see the Cline chat window appear in your VS Code editor.
-  
+## Adım Adım Kurulum
+
+Cline'ı çalışır hale getirmek için şu adımları izleyin:
+
+1. **VS Code'u Açın:** VS Code uygulamasını başlatın. VS Code "Çalışan uzantılar..." gösteriyorsa, "İzin Ver"e tıklayın.
+
+2. **Cline Klasörünüzü Açın:** VS Code'da, Belgeler'de oluşturduğunuz Cline klasörünü açın.
+
+3. **Uzantılara Gidin:** VS Code'un yan tarafındaki Etkinlik Çubuğunda Uzantılar simgesine tıklayın.
+
+4. **'Cline' Araması Yapın:** Uzantılar arama çubuğuna "Cline" yazın.
+
+5. **Uzantıyı Yükleyin:** Cline uzantısının yanındaki "Yükle" düğmesine tıklayın.
+
+6. **Cline'ı Açın:** Yüklendikten sonra, Cline'ı birkaç şekilde açabilirsiniz:
+
+- Etkinlik Çubuğundaki Cline simgesine tıklayın.
+
+- Komut paletini (`CMD/CTRL + Shift + P`) kullanın ve Cline'ı düzenleyicinizde bir sekme olarak açmak için "Cline: Yeni Sekmede Aç" yazın. Daha iyi bir görünüm için bu önerilir.
+
+- **Sorun Giderme:** Cline simgesini görmüyorsanız, VS Code'u yeniden başlatmayı deneyin.
+- **Görecekleriniz:** VS Code düzenleyicinizde Cline sohbet penceresinin göründüğünü görmelisiniz.
+
 ![gettingStartedVsCodeCline](https://github.com/user-attachments/assets/622b4bb7-859b-4c2e-b87b-c12e3eabefb8)
 
-## Setting up OpenRouter API Key
+## OpenRouter API Anahtarını Kurma
 
-Now that you have Cline installed, you'll need to set up your OpenRouter API key to use Cline's full capabilities.
+Cline'ı kurduktan sonra, Cline'ın tüm özelliklerini kullanmak için OpenRouter API anahtarınızı kurmanız gerekecek.
 
-1.  **Get your OpenRouter API Key:**
-    -   [Get your OpenRouter API Key](https://openrouter.ai/)
-2.  **Input Your OpenRouter API Key:**
-    -   Navigate to the settings button in the Cline extension.
-    -   Input your OpenRouter API key.
-    -   Select your preferred API model.
-        -   **Recommended Models for Coding:**
-            -   `anthropic/claude-3.5-sonnet`: Most used for coding tasks.
-            -   `google/gemini-2.0-flash-exp:free`: A free option for coding.
-            -   `deepseek/deepseek-chat`: SUPER CHEAP, almost as good as 3.5 sonnet
-        -   [OpenRouter Model Rankings](https://openrouter.ai/rankings/programming)
+1. **OpenRouter API Anahtarınızı Alın:**
 
-## Your First Interaction with Cline
+- [OpenRouter API Anahtarınızı Alın](https://openrouter.ai/)
+2. **OpenRouter API Anahtarınızı Girin:**
 
-Now you're ready to start building with Cline. Let's create your first project folder and build something! Copy and paste the following prompt into the Cline chat window:
+- Cline uzantısındaki ayarlar düğmesine gidin.
 
-```
-Hey Cline! Could you help me create a new project folder called "hello-world" in my Cline directory and make a simple webpage that says "Hello World" in big blue text?
-```
+- OpenRouter API anahtarınızı girin.
 
-**What You'll See:** Cline will help you create the project folder and set up your first webpage.
+- Tercih ettiğiniz API modelini seçin.
 
-## Tips for Working with Cline
+- **Kodlama İçin Önerilen Modeller:**
 
--   **Ask Questions:** If you're unsure about something, don't hesitate to ask Cline!
--   **Use Screenshots:** Cline can understand images, so feel free to use screenshots to show him what you're working on.
--   **Copy and Paste Errors:** If you encounter errors, copy and paste the error messages into Cline's chat. This will help him understand the issue and provide a solution.
--   **Speak Plainly:** Cline is designed to understand plain, non-technical language. Feel free to describe your ideas in your own words, and Cline will translate them into code.
+- `anthropic/claude-3.5-sonnet`: Kodlama görevleri için en çok kullanılan model.
 
-## FAQs
+- `google/gemini-2.0-flash-exp:free`: Kodlama için ücretsiz bir seçenek.
 
--   **What is the Terminal?** The terminal is a text-based interface for interacting with your computer. It allows you to run commands to perform various tasks, such as installing packages, running scripts, and managing files. Cline uses the terminal to execute commands and interact with your development environment.
--   **How Does the Codebase Work?** (This section will be expanded based on common questions from new coders)
+- `deepseek/deepseek-chat`: ÇOK UCUZ, neredeyse 3.5 sonnet kadar iyi.
 
-## Still Struggling?
+- [OpenRouter Model Sıralamaları](https://openrouter.ai/rankings/programming)
 
-Feel free to contact me, and I'll help you get started with Cline.
+## Cline ile İlk Etkileşiminiz
+
+Artık Cline ile bir şeyler geliştirmeye hazırsınız. İlk proje klasörünüzü oluşturalım ve bir şeyler yapalım! Aşağıdaki komutu Cline sohbet penceresine kopyalayıp yapıştırın:
+
+``` `Merhaba Cline! Cline dizinimde "hello-world" adında yeni bir proje klasörü oluşturmama ve büyük mavi yazı tipiyle "Merhaba Dünya" yazan basit bir web sayfası yapmama yardımcı olabilir misin?
+
+``` ```
+
+**Neler Göreceksiniz:** Cline, proje klasörünüzü oluşturmanıza ve ilk web sayfanızı kurmanıza yardımcı olacaktır.
+
+## Cline ile Çalışma İpuçları
+
+- **Sorular Sorun:** Bir şeyden emin değilseniz, Cline'a sormaktan çekinmeyin!
+
+- **Ekran Görüntüleri Kullanın:** Cline görüntüleri anlayabilir, bu nedenle üzerinde çalıştığınız şeyi ona göstermek için ekran görüntüleri kullanmaktan çekinmeyin.
+
+- **Hataları Kopyala ve Yapıştır:** Hatalarla karşılaşırsanız, hata mesajlarını Cline'ın sohbetine kopyalayıp yapıştırın. Bu, sorunu anlamasına ve bir çözüm sunmasına yardımcı olacaktır.
+
+- **Basitçe Konuşun:** Cline, basit, teknik olmayan dili anlamak üzere tasarlanmıştır. Fikirlerinizi kendi kelimelerinizle anlatmaktan çekinmeyin ve Cline bunları koda çevirecektir.
+
+## Sıkça Sorulan Sorular
+
+- **Terminal Nedir?** Terminal, bilgisayarınızla etkileşim kurmak için metin tabanlı bir arayüzdür. Çeşitli görevleri gerçekleştirmek için komutlar çalıştırmanıza olanak tanır; örneğin paket yükleme, komut dosyaları çalıştırma ve dosyaları yönetme. Cline, komutları yürütmek ve geliştirme ortamınızla etkileşim kurmak için terminali kullanır.
+
+- **Kod Tabanı Nasıl Çalışır?** (Bu bölüm, yeni kodlayıcılardan gelen yaygın sorulara göre genişletilecektir)
+
+## Hala Zorlanıyor musunuz?
+
+Bana ulaşmaktan çekinmeyin, Cline ile başlamanıza yardımcı olacağım.
 
 nick | 608-558-2410
 
-Join our Discord community: [https://discord.gg/YmtKFD2f](https://discord.gg/YmtKFD2f)
-
+Discord topluluğumuza katılın: [https://discord.gg/YmtKFD2f](https://discord.gg/YmtKFD2f)
